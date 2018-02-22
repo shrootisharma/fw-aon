@@ -1,0 +1,30 @@
+.flex-packs{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.item{
+	font-family: helvetica;
+	color:darkslategrey;
+	border:1px solid lightgrey;
+	padding:0.5rem;
+	margin:0.5rem;
+	width:16rem;
+	list-style-type: none;
+	cursor: pointer;
+}
+
+.item:hover{
+	background-color:ghostwhite;
+}
+
+.item img{
+	display: block;
+	margin:1rem auto;
+}
+
+.item p{
+	margin:0.5rem;
+}

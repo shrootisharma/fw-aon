@@ -1,0 +1,9 @@
+<ul class="flex-packs">
+    <li *ngFor="let pack of packs" class="item">
+        <img [src]="pack.image">
+        <p>{{ pack.name }}</p>
+        <p>{{ pack.description }}</p>
+        <p>{{ pack.price }}</p>
+        <p>{{ pack.type }}</p>
+    </li>
+</ul>
